@@ -35,7 +35,7 @@ public class DiscordController : MonoBehaviour
         
         presence.largeImageKey = "gene";
 
-        presence.details = "OwO";
+        presence.details = "◯ 𝕨 ◯";
         presence.state = "what's this?";
 
         DiscordRpc.UpdatePresence(presence);
